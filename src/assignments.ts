@@ -8,7 +8,7 @@ export interface Assignment {
   isSubmitted: boolean;
 }
 
-export const assignments: Assignment[] = [
+export const initialAssignments: Assignment[] = [
   {
     id: 1,
     courseName: "React & TypeScript",
